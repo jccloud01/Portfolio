@@ -1,8 +1,110 @@
 body {
+
     background-color:#E4F0EF;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    border-radius: 0px;
+    
+
 }
 header,
 footer {
     background-color:#1B4D47;
     
+}
+#top-bar {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.full-name {
+    font-family: 'Tangerine', cursive;
+    font-size: 72px;
+    color: #DCE8F3;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    padding: 10px;
+}
+.navbar1 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 20px;
+    color: #DCE8F3;
+    display: inline-block;
+    word-spacing: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+#section-one {
+    display: grid;
+    grid-template-columns: 0, 3px, 0;
+   
+}
+.background {
+    display: grid;
+    grid-column: 2;
+    border-radius: 3%;
+    background-image: url(https://res.cloudinary.com/deq09hmu3/image/upload/v1633995230/Portfolio/ali-kazal-z7ofnYF_qsI-unsplash-2_fnsjhk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 700px;
+}
+.inner-text {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 3%;
+    background-color: rgba(196, 196, 196, 0.65);
+    background-position: center;
+    width:1000px;
+    height: 500px;
+    grid-template-columns: 1px,1px;
+    grid-template-rows: 1px, 1px, 1px;
+}
+.welcome {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    text-shadow: black;
+    font-family: 'Tangerine', cursive;
+    color: white;
+    font-size: 48px;
+    letter-spacing: 3px;
+    padding-left: 20px;
+}
+
+.name {
+    display: grid;
+    grid-column:2;
+    grid-row: 2;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 64px;
+    color: #0C2942;
+    padding-left: 350px;
+    padding-top: 100px;
+    
+}
+
+.sections {
+    padding: 60px;
+    align-items: center;
+    box-sizing: content-box;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar2 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 15px;
+    color: #DCE8F3;
+    display: inline-block;
+    word-spacing: 10px;
+    justify-content: space-between;
+    padding: 10px;
 }

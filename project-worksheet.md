@@ -54,6 +54,14 @@ Once complete tally up the time and determine how long the project will take to 
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
+-MVP
+Bootstrap
+Jquery
+
+-Post
+Google Sheets
+
+
 #### MVP (examples)
 
 - Pull data using google json api
@@ -62,6 +70,9 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - Save their choices in firebase
 
 #### PostMVP 
+
+
+
 
 - Anything else that is not MVP
 
