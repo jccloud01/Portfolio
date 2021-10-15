@@ -1,0 +1,77 @@
+
+
+Desktop....
+
+footer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.name
+display: grid;
+    grid-column:2;
+    grid-row: 2;
+     padding-left: 350px;
+    padding-top: 100px;
+       font-size: 64px;
+
+.welcome 
+display: grid;
+    grid-column: 2;
+    grid-row: 2;
+     padding-left: 20px;
+      font-size: 48px;
+    letter-spacing: 3px;
+.inner-text
+display: grid;
+    grid-column: 2;
+    grid-row: 2;
+     grid-template-columns: 1px,1px;
+    grid-template-rows: 1px, 1px, 1px;
+ width:1000px;
+    height: 500px;
+.background 
+display: grid;
+    grid-column: 2;
+    #section-one {
+    display: grid;
+    grid-template-columns: 0, 3px, 0;
+       width: 1400px;
+    height: 700px;
+}
+.sections {
+    display: flex;
+    justify-content: center;
+     padding: 60px;
+    align-items: center;
+    box-sizing: content-box;
+}
+navbar1
+  display: inline-block;
+    word-spacing: 10px;
+       font-size: 20px;
+       padding: 10px;
+       justify-content: space-between;
+navbar2
+  font-size: 15px;
+  word-spacing: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+fullname
+font-size: 72px;
+    font-weight: 100;
+    padding: 10px;
+      letter-spacing: 3px;
+
+      body
+      position: absolute;
+    align-items: center;
+    border-radius: 0px;
+
+    box-shadow: 5px 20px 30px  #0C2942;
+
+     box-shadow: 5px 20px 30px  #0C2942;

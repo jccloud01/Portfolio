@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Syncopate&family=Tangerine&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Julie M. Curry | Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    <script>
+        function SubForm() {
+            $.ajax({
+                url: 'https://api.apispreadsheets.com/data/19408/',
+                type: 'post',
+                data: $("#myForm").serializeArray(),
+                success: function () {
+                    alert("Contact Info Submitted!")
+                },
+                error: function () {
+                    alert("There was an error!")
+                }
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <header class='outer-text' id='head'>
+
+        <div class='begin-text'>
+
+            <!-- Logo and Name -->
+            <div class='full-name'>
+                <h1>Julie M. Curry</h1>
+            </div>
+            <!-- Navigation -->
+            <div class='first-navbar'>
+                <ul>
+                    <li id='top-navbar'>Projects</li>
+                    <li id='top-navbar'>About Me</li>
+                    <li id='top-navbar'>Skills</li>
+                    <li id='top-navbar'>Contact</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+    <section class='sections'>
+
+        <div class="section-one-background">
+            <div class='backdrops' id='font-backdrop1'>
+
+                <div class="inner-text" id='section-one'>
+                    <h1 id='name'>Julie Curry</h1>
+                    <h4 id='welcome'>Hello! Welcome to my portfolio!</h4>
+                    <h3 id="design">Full Stack Developer</h3>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="section-two-background">
+            <div class='backdrops' id='font-backdrop2'>
+
+                <div class="inner-text">
+                    <h1 class='section-head' id='project-section'>Projects</h1>
+                    <!-- Carousel -->
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section-three-background">
+            <div class='backdrops' id='font-backdrop3'>
+                <div class="inner-text">
+                    <h1 class="section-head" id='about-section'>About Me</h1>
+                    <p class='section-text'>
+                        Website Developer currently based out of Los Angeles, California. 
+                    </p>
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section-four-background">
+            <div class='backdrops' id='font-backdrop4'>
+                <div class="inner-text">
+                    <h1 class="section-head" id='skill-section'>Skills</h1>
+                    <div class='icon-section1'>
+                        <ul class='icons-one'>
+                            <li class='skill-image' id='skill1'><img
+                                        src='images/adobe-photoshop--v1.png'
+                                        id='icons1' alt='photoshop'></li>
+                            <li class='skill-image' id='skill2'><img
+                                        src='images/codepen.png'
+                                        id='icons1' alt='codepen'></li>
+                            <li class='skill-image' id='skill3'><img
+                                        src='images/css3.png'
+                                        id='icons1' alt='css3'></li>
+                            <li class='skill-image' id='skill4'><img
+                                        src='images/github--v1.png'
+                                        id='icons1' alt='github'></li>
+                            <li class='skill-image' id='skill5'><img
+                                        src='images/html-5--v2.png'
+                                        id='icons1' alt='html5'></li>
+                            <li class='skill-image' id='skill6'><img
+                                        src='images/javascript--v1.png'
+                                        id='icons1' alt='javascript'></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="section-five-background">
+            <div class='backdrops' id='font-backdrop5'>
+                <div id='contact' class="inner-text">
+                    <h1 class="section-head">Contact</h1>
+                        <form id="myForm">
+                            <div id='full-name-input'>
+                            <label class='contact-form' >Full Name</label>
+                            <br />
+                            <input name="full_name" />
+                            </div>
+                            <br />
+                            <div id='email-input'>
+                            <label class='contact-form'>Email</label>
+                            <br />
+                            <input name="email" />
+                            </div>
+                            <br />
+                            <div id='message-input'>
+                            <label class='contact-form'>Message</label>
+                            <br />
+                            <textarea name="message">
+                            </textarea>
+                            </div>
+                            <br />
+                            <br />
+                        </form>
+                        <button class='contact-submit' onclick="SubForm()">Submit</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section-six-background">
+            <div class='backdrops' id='font-backdrop6'>
+                <div class="inner-text" id='media'>
+                    <h1 class="section-head" id='media-section'>Media</h1>
+                        <div class='icon-section'>
+                            <ul class='icons'>
+                                <li class='icon-image' id='img-one'><a href="https://github.com/jccloud01"><img
+                                            src='images/github--v1.png'
+                                            id='icons' alt='GitHub'></a></li>
+                                            <li class='icon-image' id='username'>@jccloud01</li>
+                                <li class='icon-image' id='img-two'><a href="https://www.linkedin.com/in/julie-curry-39a638207/"><img
+                                            src='images/linkedin-circled--v5.gif'
+                                            id='icons' alt='LinkedIn'></a></li>
+                                            <li class='icon-image' id='username'>@Julie Curry</li>
+                                <li class='icon-image' id='img-three'><a href="https://codepen.io/your-work"><img
+                                            src='images/codepen.png'
+                                            id='icons' alt='CodePen'></a></li>
+                                            <li class='icon-image' id='username'>@jc-cloud01</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class='outer-text' id='bottom'>
+        <div class='last-navbar'>
+            <ul>
+                <li id='bottom-navbar'>Projects</li>
+                <li id='bottom-navbar'>|</li>
+                <li id='bottom-navbar'>About</li>
+                <li id='bottom-navbar'>|</li>
+                <li id='bottom-navbar'>Skills</li>
+                <li id='bottom-navbar'>|</li>
+                <li id='bottom-navbar'>Contact</li>
+            </ul>
+            
+        </div>
+        <p id='scroll'>Scroll to Top</p>
+    </footer>
+
+    <script src="project.js"></script>
+</body>
+
+</html>
