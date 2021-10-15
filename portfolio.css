@@ -271,6 +271,9 @@ section {
 		height: 300px;
 		box-shadow: 2px 10px 50px #0c2942;
 	}
+    .car-icon {
+        display: none;
+    }
 	.section-three-background {
 		background-color: #dce8f3;
 		margin-top: 20px;
@@ -345,6 +348,10 @@ section {
 		height: 200px;
 		box-shadow: 2px 10px 50px #0c2942;
 	}
+    #username {
+        display: none;
+        color:rgb(170, 187, 183);
+    }
 	#bottom {
 		position: relative;
 		bottom: 0;
@@ -446,7 +453,7 @@ section {
 	}
 	#design {
 		display: flex;
-		font-size: 45px;
+		font-size: 25px;
 		justify-content: center;
 		margin-top: -35px;
 	}
@@ -485,6 +492,9 @@ section {
 		height: 500px;
 		box-shadow: 2px 10px 50px #0c2942;
 	}
+    .car-section {
+        display: none;
+    }
 	.section-three-background {
 		grid-column: 1;
 		grid-row: 3;
@@ -580,6 +590,10 @@ section {
 		height: 250px;
 		box-shadow: 2px 10px 50px #0c2942;
 	}
+    #username {
+        display: none;
+        color:rgb(170, 187, 183);
+    }
 	.inner-text {
 		display: inline-block;
 		align-content: center;
@@ -761,9 +775,6 @@ section {
         margin-top: -200px;
         margin-left: 230px;
 	}
-
-
-
     .section-two-background {
         grid-row: 2;
         grid-column-start: 2;
